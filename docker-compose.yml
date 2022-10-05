@@ -22,7 +22,7 @@ services:
       - ./media/:/media/
     entrypoint: ./wsgi-entrypoint.sh
     ports:
-      - 8000:8000
+      - 8001:8001
     networks:
       - my-network
     depends_on:
